@@ -28,6 +28,6 @@ public class CustomerTest {
 
     @Test
     public void canGetWalletAmount() {
-        assertEquals(60.00, customer.getWalletAmount());
+        assertEquals(60.00, customer.getWalletAmount(),0.01);
     }
 }
