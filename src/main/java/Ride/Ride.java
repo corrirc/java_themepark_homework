@@ -2,6 +2,7 @@ package Ride;
 
 public abstract class Ride {
 
+    Customer customer;
     private int height;
     private double price;
 
