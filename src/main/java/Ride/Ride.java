@@ -2,25 +2,23 @@ package Ride;
 
 public abstract class Ride {
 
-    private String name;
     private int height;
     private double price;
 
-    public Ride(String name, int height, double price);{
-        this.name = name;
+
+
+    public Ride(int height, double price) {
+
         this.height = height;
         this.price = price;
     }
 
-    public String getRideName(){
-        return this.name;
+    public double getPrice() {
+        return this.price;
     }
 
-    public int getRideHeight(){
+    public int getHeight() {
         return this.height;
     }
 
-    public double getRidePrice(){
-        return this.price;
-    }
 }

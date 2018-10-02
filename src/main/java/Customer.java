@@ -1,13 +1,15 @@
-public class Customer extends Ride {
+public class Customer  {
 
-    private String name;
+    Customer customer;
     private int age;
     private int height;
     private double price;
     private double wallet;
 
-    public Customer(String name, int age, int height, double price, double wallet){
-        super(name, age, height, price);
+    public Customer(int age, int height, double wallet){
+
+        this.age = age;
+        this.height = height;
         this.wallet = wallet;
     }
 
