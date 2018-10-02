@@ -1,10 +1,11 @@
-package Ride;
+package Rides;
 
 public abstract class Ride {
 
     Customer customer;
     private int height;
     private double price;
+
 
 
 

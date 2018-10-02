@@ -1,4 +1,5 @@
-import Ride.Customer;
+import Rides.Customer;
+import Rides.Rollercoaster;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class CustomerTest {
 
     Customer customer;
-//    Rollercoaster rollercoaster;
+    Rollercoaster rollercoaster;
 
 
     @Before

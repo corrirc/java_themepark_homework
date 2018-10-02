@@ -1,4 +1,4 @@
-package Ride;
+package Rides;
 
 public class Customer  {
 
