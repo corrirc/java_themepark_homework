@@ -26,4 +26,13 @@ public class Customer  {
     public double getWalletAmount() {
         return this.wallet;
     }
+
+    public void setWallet(double wallet) {
+        this.wallet = wallet;
+    }
+
+    public void payForRide(Ride ride) {
+        this.wallet -= ride.getPrice();
+    }
+
 }

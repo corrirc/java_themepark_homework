@@ -1,5 +1,4 @@
 import Rides.Customer;
-import Rides.Rollercoaster;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,8 +6,8 @@ import static org.junit.Assert.assertEquals;
 
 public class CustomerTest {
 
-    Customer customer;
-    Rollercoaster rollercoaster;
+     Customer customer;
+     Rollercoaster rollercoaster;
 
 
     @Before
@@ -28,6 +27,13 @@ public class CustomerTest {
 
     @Test
     public void canGetWalletAmount() {
-        assertEquals(60.00, customer.getWalletAmount(),0.01);
+        assertEquals(60.00, customer.getWalletAmount(), 0.01);
+    }
+
+    @Test
+    public void canPay() {
+        rollercoaster = new Rollercoaster(5.00, 190);
+        customer.canPayForRide(rollercoaster);
+        assertEquals(55, customer.getWalletAmount(), 0.01);
     }
 }

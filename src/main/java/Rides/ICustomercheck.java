@@ -1,6 +1,6 @@
 package Rides;
 
-public interface ICustomercheck {
+public interface ICustomerCheck {
 
-    public int customerCheck(Customer customer);
+    public int check(Customer customer);
 }

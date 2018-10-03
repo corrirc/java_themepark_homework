@@ -23,4 +23,9 @@ public abstract class Ride {
         return this.height;
     }
 
+
+    public boolean checkHasMoney(Customer customer) {
+        return customer.getWalletAmount() >= this.price;
+    }
+
 }

@@ -1,14 +1,13 @@
 import Rides.Customer;
-import Rides.Rollercoaster;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class RollerCoasterTest {
+public class RollercoasterTest {
 
-    private Rollercoaster rollercoaster;
-    private Customer customer;
+    Rollercoaster rollercoaster;
+    Customer customer;
 
     @Before
     public void before(){
