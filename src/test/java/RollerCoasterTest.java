@@ -7,8 +7,8 @@ import static org.junit.Assert.assertEquals;
 
 public class RollerCoasterTest {
 
-    Rollercoaster rollercoaster;
-    Customer customer;
+    private Rollercoaster rollercoaster;
+    private Customer customer;
 
     @Before
     public void before(){

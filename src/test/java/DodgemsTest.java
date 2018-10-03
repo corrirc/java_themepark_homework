@@ -7,8 +7,8 @@ import static org.junit.Assert.assertEquals;
 
 
     public class DodgemsTest {
-        Dodgems dodgems;
-        Customer customer;
+        private Dodgems dodgems;
+        private Customer customer;
 
 
         @Before
